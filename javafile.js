@@ -1,0 +1,1 @@
+alert("Another javascript file with an alert");
