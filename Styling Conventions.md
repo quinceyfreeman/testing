@@ -32,11 +32,19 @@ When there needs to be a style for a specific heading, team should default to in
 
 > `selected-weight` could include 100, 300, 400, 500, 700 as these are the font-weights that are currently imported from Google Fonts. Since the imported font supports italic, this can be used for `selected-style` if needed.
 
+Below is an example of 'Roboto' font for each heading element
+
+![](https://i.imgur.com/lQzSv40.png)
+
 ## Text
 
-Similarly, text elements such as `<p>, <label>, <button>` will also adhere to using the 'Roboto' font. This should create a cohesive feel to the website that allows for easy viewing on desktop / mobile devices. Although, should the font fail to be imported through the stylesheet link, the selected font to replace will be sans-serif.
+Similarly, text elements such as `<p>, <label>, <button>` will adhere to using the imported font 'Noto Sans JP'. This should create a cohesive feel to the website that allows for easy viewing on desktop / mobile devices. Although, should the font fail to be imported through the stylesheet link, the selected font to replace will be sans-serif.
 
 > Nothing needs to be done for the team to adhere to this guidline as the font is selected to be used for the elements listed above preemptively.
+
+Below is an example of 'Noto Sans JP' font for a text element
+
+![](https://i.imgur.com/9iFeA66.png)
 
 ## Forms
 
@@ -109,6 +117,6 @@ Calling these buttons can be done by using the following:
 ```
 
 ## Color Scheme
-The initial color theme for the website can be viewed below. 
+The initial color theme for the website can be viewed below. This is subject to change as progress is made to the website and feedback is received from the stakeholders.
 
 ![](https://i.imgur.com/PqPICq8.png)
