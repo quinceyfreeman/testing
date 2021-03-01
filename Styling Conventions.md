@@ -16,7 +16,7 @@ Headings will use the 'Roboto' font as described above and can be accessed using
 
 ### Header Styling
 
-When there needs to be a style for a specific heading, team should use default to inline styling for given heading. Some examples for specific inline heading styles could be
+When there needs to be a style for a specific heading, team should default to inline styling for given heading. An example for specific inline heading styles could be
 
 ```html
 <h1 style='font-weight: [selected-weight]; font-style: [selected-style]'> Heading </h1>
@@ -31,6 +31,59 @@ Similarly, text elements such as `<p>, <label>, <button>` will also adhere to us
 > Nothing needs to be done for the team to adhere to this guidline as the font is selected to be used for the elements listed above preemptively.
 
 ## Forms
+
+Forms will use Bootstrap's implementation along with slight modifications to allow the website to have a cohesiev design. Below is am example of a forms implementation and code.
+
+> Nothing needs to be done for the team to adhere to this guidline as the form element is styled to be used for the website directly.
+
+
+![](basic-form.png)
+
+```html
+<form>
+    <div class="form-group">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group">
+        <label for="inputPassword4">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <button type="submit" class="btn btn-submit">Sign in</button>
+</form>
+```
+
+Note that if form grid needs to be altered to allow for fields on the same row using Bootstrap's layout, an example is provided below.
+
+![](form-col.png)
+
+```html
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">Email description</small>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" aria-describedby="passHelp">
+            <small id="passHelp" class="form-text text-muted">Password criteria</small>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <button type="submit" class="btn btn-submit btn-light">Sign in</button>
+</form>
+```
+
+Note that if there needs to be a short description for a specific field, the `<small>` element may be appended. 
 
 ## Buttons
 Buttons can be any of the below options. Implementing these custom buttons will follow Bootstrap's formula for making a button.
