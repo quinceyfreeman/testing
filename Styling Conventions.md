@@ -36,8 +36,7 @@ Forms will use Bootstrap's implementation along with slight modifications to all
 
 > Nothing needs to be done for the team to adhere to this guidline as the form element is styled to be used for the website directly.
 
-
-![](basic-form.png)
+![](https://i.imgur.com/TmBA2Ah.png)
 
 ```html
 <form>
@@ -59,7 +58,7 @@ Forms will use Bootstrap's implementation along with slight modifications to all
 
 Note that if form grid needs to be altered to allow for fields on the same row using Bootstrap's layout, an example is provided below.
 
-![](form-col.png)
+![](https://i.imgur.com/nZxA1tZ.png)
 
 ```html
 <form>
