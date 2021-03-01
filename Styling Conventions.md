@@ -36,7 +36,7 @@ Similarly, text elements such as `<p>, <label>, <button>` will also adhere to us
 Buttons can be any of the below options. Implementing these custom buttons will follow Bootstrap's formula for making a button.
 
 <p align="center">
-  <img style="border-radius:10px;" src="https://media.giphy.com/media/J7vDfUK5UeYIhRsxZx/giphy.gif">
+  <img src="https://media.giphy.com/media/J7vDfUK5UeYIhRsxZx/giphy.gif">
 </p>
 
 Calling these buttons can be done by using the following:
