@@ -2,6 +2,14 @@
 
 Here are some examples for the adheared styling for the Monmouth-Independence Visitor Center website. Below are some elements that have been altered from the basic / Bootstrap styling and how to access these elements through classes.
 
+## Quick Links
+- [Font](#font)
+- [Headings](#headings)
+- [Text](#text)
+- [Forms](#forms)
+- [Buttons](#buttons)
+- [Color Scheme](#color-scheme)
+
 ## Font
 DF has decided to select a modern font that users of the website will see across all pages. The font selected to be used for the website is 'Roboto'. This font is found on [Google Font](https://fonts.google.com/specimen/Roboto?preview.text_type=custom) and is imported into the website using a stylesheet link in `Shared/_Layout.cshtml`. Below is an example of the font.
 
