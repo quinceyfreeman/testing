@@ -1,4 +1,4 @@
-# Styling Conventions
+# Custom Class Styling
 
 Here are some examples for the adheared styling for the Monmouth-Independence Visitor Center website. Below are some elements that have been altered from the basic / Bootstrap styling and how to access these elements through classes.
 
@@ -117,6 +117,8 @@ Calling these buttons can be done by using the following:
 ```
 
 ## Color Scheme
-The initial color theme for the website can be viewed below. This is subject to change as progress is made to the website and feedback is received from the stakeholders.
+The initial color theme for the website can be viewed below. Elements such as `<button>` and `<form>` have already been created to adhere to this color scheme.
 
 ![](https://i.imgur.com/PqPICq8.png)
+
+> Note that this custom styling is subject to change as progress is made to the website and feedback is received from the stakeholders.
